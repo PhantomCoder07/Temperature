@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float fah,ran;
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%f",&fah);
+    ran=fah+459.67;
+    printf("The Temperature %.2f Fahrenheit in Rankine: %.2f\n",fah,ran);
+    return 0;
+}

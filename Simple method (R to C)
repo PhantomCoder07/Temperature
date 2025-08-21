@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+    float cel,ran;
+    printf("Enter temperature in Rankine: ");
+    scanf("%f",&ran);
+    cel=((ran-491.67)*5)/9;
+    printf("The Temperature %.2f Rankine in Celsius: %.2f\n",ran,cel);
+    return 0;
+}

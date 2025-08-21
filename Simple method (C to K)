@@ -5,6 +5,6 @@ int main()
     printf ("Enter Temperature in Celsius: ");
     scanf ("%f",&cel);
     kel=cel+273.15;
-    printf("The Temperature %.2f Celsius in Kelvin: %.2f",cel,kel);
+    printf("The Temperature %.2f Celsius in Kelvin: %.2f\n",cel,kel);
     return 0;
 }
